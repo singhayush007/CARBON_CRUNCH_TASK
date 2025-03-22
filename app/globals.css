@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+  --primary-color: #4caf50;
+  --primary-light: #e8f5e9;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+}
+
+.feature-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.parallax-container {
+  position: relative;
+  overflow: visible; /* Changed from hidden to visible */
+  height: 500px;
+  border-radius: 0; /* Removed border radius */
+  margin-top: 2rem;
+}
+
+.stat-card {
+  backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  position: absolute;
+  z-index: 10;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-card.green {
+  background-color: #4caf50; /* Green color */
+  color: white;
+}
