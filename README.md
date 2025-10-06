@@ -4,6 +4,17 @@
 
 This project is a frontend implementation of the **Carbon Crunch** web page design provided via Figma. The goal was to translate the Figma design into a **pixel-perfect, responsive web page** and implement an **Artistic Parallax Slider animation** as demonstrated in the reference video.
 
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) 
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) 
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) 
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white) 
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) 
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat&logo=gsap&logoColor=white) 
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white) 
+![License](https://img.shields.io/badge/License-MIT-green)
+
+
 ## Figma Design
 
 The original design was provided here:
