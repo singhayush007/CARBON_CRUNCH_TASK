@@ -7,7 +7,7 @@ This project is a frontend implementation of the **Carbon Crunch** web page desi
 ## Figma Design
 
 The original design was provided here:
-[Figma File](https://www.figma.com/design/4C2Bk5UWC4YU9hsMv2LxBa/Task-File---5?t=jDI516MWPkhc2p0Y-1)
+[Figma File](figma.com/design/4C2Bk5UWC4YU9hsMv2LxBa/Task-File---5)
 
 ## Live Demo
 
@@ -35,8 +35,7 @@ A live preview of the project is hosted at:
 
 2. **Artistic Parallax Slider Animation**
 
-   * Smooth, interactive parallax movement inspired by the reference video:
-     [Reference Video](https://www.youtube.com/watch?v=X_O7q3onR9I)
+   * Smooth, interactive parallax movement.
    * Slider supports multiple images with layered depth effect for an immersive experience.
    * Optimized performance for smooth transitions.
 
