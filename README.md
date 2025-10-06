@@ -18,7 +18,7 @@ This project is a frontend implementation of the **Carbon Crunch** web page desi
 ## Figma Design
 
 The original design was provided here:
-[Figma File](figma.com/design/4C2Bk5UWC4YU9hsMv2LxBa/Task-File---5)
+[Figma File](https://www.figma.com/design/4C2Bk5UWC4YU9hsMv2LxBa/Task-File---5?node-id=0-1&p=f)
 
 ## Live Demo
 
