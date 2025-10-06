@@ -1,36 +1,122 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Carbon Crunch - Frontend Intern Shortlisting Task
 
-## Getting Started
+## Project Overview
 
-First, run the development server:
+This project is a frontend implementation of the **Carbon Crunch** web page design provided via Figma. The goal was to translate the Figma design into a **pixel-perfect, responsive web page** and implement an **Artistic Parallax Slider animation** as demonstrated in the reference video.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Figma Design
+
+The original design was provided here:
+[Figma File](https://www.figma.com/design/4C2Bk5UWC4YU9hsMv2LxBa/Task-File---5?t=jDI516MWPkhc2p0Y-1)
+
+## Live Demo
+
+A live preview of the project is hosted at:
+[Live Demo Link](https://carbon-crunch-task-ten.vercel.app/)
+
+## Technologies Used
+
+* **Frontend Framework:** React.js
+* **Styling:** Tailwind CSS
+* **Animations:** GSAP (GreenSock Animation Platform) for smooth parallax slider transitions
+* **Other Tools:**
+
+  * Responsive design using CSS Grid & Flexbox
+  * Webpack / Create React App for project setup
+
+> Note: You can replace the tech stack here if you used Next.js, Vue.js, Angular, or Vanilla JS.
+
+## Features
+
+1. **Pixel-perfect Figma Design Recreation**
+
+   * Fully responsive design across desktop, tablet, and mobile devices.
+   * Accurate typography, colors, spacing, and layout as per the Figma file.
+
+2. **Artistic Parallax Slider Animation**
+
+   * Smooth, interactive parallax movement inspired by the reference video:
+     [Reference Video](https://www.youtube.com/watch?v=X_O7q3onR9I)
+   * Slider supports multiple images with layered depth effect for an immersive experience.
+   * Optimized performance for smooth transitions.
+
+3. **Bonus Features**
+
+   * Subtle micro-interactions on hover and scroll for enhanced UX.
+   * Lazy loading of slider images for faster page load and performance optimization.
+   * Accessible design considerations (ARIA labels, semantic HTML).
+
+## Project Structure
+
+```
+carbon-crunch/
+│
+├─ public/               # Static assets (images, icons, favicon)
+│  └─ favicon.ico
+├─ src/
+│  ├─ app/               # Main application folder
+│  │  ├─ layout.tsx
+│  │  ├─ page.tsx
+│  │  ├─ globals.css
+│  │  └─ favicon.ico
+│  ├─ components/        # Reusable React components
+│  │  ├─ FeatureCard.tsx
+│  │  ├─ FeatureGrid.tsx
+│  │  ├─ Header.tsx
+│  │  ├─ ParallaxSection.tsx
+│  │  └─ StatCard.tsx
+├─ package.json
+└─ README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation & Setup
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+git clone https://github.com/YOUR_GITHUB_USERNAME/carbon-crunch.git
+cd carbon-crunch
+```
 
-## Learn More
+2. Install dependencies:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm install
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Run the project locally:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm start
+```
 
-## Deploy on Vercel
+4. Visit [http://localhost:3000](http://localhost:3000) to view the page.
+5. Visit the live demo on Vercel: https://carbon-crunch-task-ten.vercel.app/
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Visit the live demo on Vercel: https://carbon-crunch-task-ten.vercel.app/
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Assets & Credits
+
+All external assets used in the project are included in the repository:
+
+* Images: `/public/images/`
+* Icons: `/public/icons/`
+* Fonts: Google Fonts (linked in `index.html`)
+
+> Ensure proper attribution for any external assets.
+
+## Author
+
+**Ayush Singh** – Frontend Developer Intern Applicant
+
+* GitHub: [YOUR_GITHUB_PROFILE](https://github.com/singhayush007)
+* Email: ayushsingh24958@gmail.com
+
+## Notes
+
+* This project demonstrates the ability to:
+
+  * Recreate Figma designs faithfully
+  * Implement advanced animations and parallax effects
+  * Build a responsive and interactive web page
+* Originality of code and design implementation is ensured.
