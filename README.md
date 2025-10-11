@@ -103,7 +103,6 @@ npm start
 4. Visit [http://localhost:3000](http://localhost:3000) to view the page.
 5. Visit the live demo on Vercel: https://carbon-crunch-task-ten.vercel.app/
 
-Visit the live demo on Vercel: https://carbon-crunch-task-ten.vercel.app/
 
 ## Assets & Credits
 
@@ -119,7 +118,7 @@ All external assets used in the project are included in the repository:
 
 **Ayush Singh** – Frontend Developer Intern Applicant
 
-* GitHub: [YOUR_GITHUB_PROFILE](https://github.com/singhayush007)
+* GitHub:https://github.com/singhayush007
 * Email: ayushsingh24958@gmail.com
 
 ## Notes
