@@ -101,7 +101,7 @@ npm start
 ```
 
 4. Visit [http://localhost:3000](http://localhost:3000) to view the page.
-5. Visit the live demo on Vercel: https://carbon-crunch-task-ten.vercel.app/
+5. Visit the live demo on Vercel: https://carboncrunchtask.vercel.app/
 
 
 ## Assets & Credits
